@@ -17,3 +17,9 @@ semantic-box {
   display: block;
   border: 1px solid black;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
