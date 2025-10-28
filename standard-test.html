@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Standard version of the Jungian cognitive type test.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standard Jungian Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Standard Jungian Cognitive Type Test</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="standard-test.html">Standard Test</a></li>
+        <li><a href="professional-test.html">Professional Test</a></li>
+        <li><a href="types.html">Type Descriptions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Standard Version</h2>
+      <p>
+        The Standard Version helps users quickly identify their dominant and auxiliary cognitive functions.
+        This test is ideal for personal reflection or introduction to Jungian theory.
+      </p>
+    </section>
+
+    <section>
+      <h2>Quick Test Form</h2>
+
+      <form>
+        <fieldset>
+          <legend>Basic Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age"><br><br>
+
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male"> Male
+          <input type="radio" id="female" name="gender" value="female"> Female
+          <input type="radio" id="other" name="gender" value="other"> Other
+        </fieldset>
+
+        <fieldset>
+          <legend>Sample Questions</legend>
+
+          <label>1. You prefer spending time reflecting on ideas rather than engaging in group discussions.</label><br>
+          <input type="range" min="1" max="5" value="3"><br><br>
+
+          <label>2. When making decisions, you rely more on logic than emotions.</label><br>
+          <input type="range" min="1" max="5" value="3"><br><br>
+
+          <label>3. Describe what “self-awareness” means to you:</label><br>
+          <textarea rows="4" cols="40" placeholder="Write your thoughts..."></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Test Progress</h2>
+      <label for="test-progress">Completion:</label>
+      <progress id="test-progress" value="60" max="100">60%</progress>
+    </section>
+
+    <!-- Dialog Example -->
+    <dialog id="resultDialog">
+      <p><strong>Result Preview:</strong> You appear to favor Introverted Intuition (Ni) and Extraverted Thinking (Te).</p>
+      <button>Close</button>
+    </dialog>
+
+    <!-- Article Example -->
+    <article>
+      <h3>How the Standard Test Works</h3>
+      <p>
+        This simplified version uses statements to gauge thinking vs. feeling and intuition vs. sensing preferences.
+        The goal is to help users explore their dominant functions without requiring deep psychological knowledge.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    <p><em>© 2025 Jungian Cognitive Test Project — Standard Version</em></p>
+  </footer>
+</body>
+</html>

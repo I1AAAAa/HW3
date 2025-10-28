@@ -1,0 +1,19 @@
+/* ✅ Keep to ≤3 properties total (font-family only here). Borders don't count. */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  border: 1px solid black;
+}
+
+nav, section, article {
+  border: 1px solid black;
+}
+
+/* Structural presentation for semantic CSS custom element */
+semantic-box {
+  display: block;
+  border: 1px solid black;
+}
