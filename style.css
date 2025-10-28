@@ -1,12 +1,17 @@
-/* ✅ Keep to ≤3 properties total (font-family only here). Borders don't count. */
+
+:root {
+  --main-color: #0077cc;
+  --accent-color: #e07a5f;
+}
 
 body {
   font-family: Arial, sans-serif;
 }
 
 header, footer {
-  border: 1px solid black;
+  border: 1px solid var(--main-color, black);
 }
+
 
 nav, section, article {
   border: 1px solid black;
